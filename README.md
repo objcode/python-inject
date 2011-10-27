@@ -18,6 +18,13 @@ To use:
     bar()
     >> the cat is a man
 
+    @inject(a=5)
+    def baz(a=6):
+        print a
+    
+    baz()
+    >> 5
+
 
 **Q:  Why should I use this?**
 
